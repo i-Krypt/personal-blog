@@ -1,10 +1,10 @@
-# Pitchive
+# Blog
 Built with python3.6
 
 ## Description
-A web app that lets the user add pitches as well as reviewing other peoples pitches.  
+A web app that lets the user update, comment and delete posts.  
 
-A live link of my app https://fast-plains-94599.herokuapp.com/
+A live link of my app https://secure-crag-13798.herokuapp.com/
 
 
 ## Author
@@ -12,17 +12,15 @@ Sam Nujoma
 
 ##BDD 
 ### Functions of the Webapplication
-1.As a new user you can sign up and create a new account.
-
-2.As a user can you log in to an account you created. 
-
-3.As a user you can view and update your account.
-
-4.As a user when you forget your password. 
-
-5.As a user you can add new posts and upvote and downvote.
-
-6.As a user you can see the pitches other users have posted.
+1. A user can view the blog posts on the site.
+2. A user can comment on blog posts.
+3. A user can view the most recent posts.
+4. A user receives an email alert when a new post is made by joining a subscription.
+5. A user can see random quotes on the site.
+6. You as the writer can sign in to the blog.
+7. You as the writer can create a blog from the application.
+8. You as the writer can delete comments that you find insulting or degrading.
+9. You as the writer can update or delete blogs you have created.
 
 
 
@@ -38,7 +36,7 @@ Gunicorn
 Internet connection
 
 ### Installation Process
-Navigate to my git repository https://github.com/i-Krypt/pitchive.git
+Navigate to my git repository https://github.com/i-Krypt/personal-blog.git
 
 Clone the project to your computer
 
@@ -49,8 +47,7 @@ On your terminal, run the command '$ pip freeze to confirm that you have all the
 Run the command '$ python run.py'
 
 ## Known Bugs
-The comment section is yet to be updated
-The upvotes need to be worked on
+The app crashes on login and sign up.
 
 ## Contact
 email me at: vamay505@gmail.com
