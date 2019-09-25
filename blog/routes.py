@@ -3,8 +3,7 @@ from blog import app, db, bcrypt
 from blog.forms import RegistrationForm, LoginForm, PostForm
 from blog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
-from requests import get_quotes
-
+from request import get_quotes
 
 @app.route('/')
 def home():
