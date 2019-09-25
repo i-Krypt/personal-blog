@@ -1,0 +1,219 @@
+{%extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="container">
+  <br><br>
+  <!-- Section: Blog v.1 -->
+<section class="my-5">
+
+<!-- Section heading -->
+
+
+<h4 class="ui horizontal divider header">
+    <i class="fas fa-quote-left"></i>
+    Qoutes
+    <i class="fas fa-quote-right"></i>
+  </h4>
+
+
+<!-- Section description -->
+<p class="text-center w-responsive mx-auto mb-5"> 
+    <a class="ui image label">
+        <i class="fas fa-pen-nib"></i>
+        {{quotes.author}} 
+      </a>
+   : {{quotes.quote}}   
+</p>
+
+<h4 class="ui header">Blog posts</h4>
+<!-- Grid row -->
+<div class="row">
+
+<!-- Grid column -->
+<div class="col-lg-5">
+
+  <!-- Featured image -->
+  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-lg-7">
+
+  <!-- Category -->
+  <a href="#!" class="green-text">
+    <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
+  </a>
+  <!-- Post title -->
+  <h3 class="font-weight-bold mb-3"><strong>Food blog</strong></h3>
+  <!-- Excerpt -->
+  <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+    placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
+  <!-- Post data -->
+  <p>by <a><strong>Carine Fox</strong></a>, 19/08/2018</p>
+  <!-- Read more button -->
+  <a class="btn btn-success btn-md" href="http://www.afromum.com/kenyas-top-10-food-blogs/">
+      <i class="fas fa-user-edit"></i>
+    View</a>
+
+</div>
+<!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<hr class="my-5">
+
+<!-- Grid row -->
+<div class="row">
+
+<!-- Grid column -->
+<div class="col-lg-7">
+
+  <!-- Category -->
+  <a href="#!" class="pink-text">
+    <h6 class="font-weight-bold mb-3"><i class="fas fa-image pr-2"></i>Lifestyle</h6>
+  </a>
+  <!-- Post title -->
+  <h3 class="font-weight-bold mb-3"><strong>Lifestyle blogs</strong></h3>
+  <!-- Excerpt -->
+  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+    provident.</p>
+  <!-- Post data -->
+  <p>by <a><strong>Carine Fox</strong></a>: 14/08/2018</p>
+  <!-- Read more button -->
+  <a class="btn btn-pink btn-md mb-lg-0 mb-4" href="https://blog.feedspot.com/lifestyle_blogs/">
+      <i class="fas fa-user-edit"></i>
+      View
+    </a>
+
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-lg-5">
+
+  <!-- Featured image -->
+  <div class="view overlay rounded z-depth-2">
+    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Sample image">
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+</div>
+<!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<hr class="my-5">
+
+<!-- Grid row -->
+<div class="row">
+
+<!-- Grid column -->
+<div class="col-lg-5">
+
+  <!-- Featured image -->
+  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+    <img class="img-fluid" src="https://i.ibb.co/wzD7qt8/Be-Funky-photo-19.jpg" alt="Sample image">
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-lg-7">
+
+  <!-- Category -->
+  <a href="#!" class="indigo-text">
+    <h6 class="font-weight-bold mb-3"><i class="fas fa-blog"></i>Travels</h6>
+  </a>
+  <!-- Post title -->
+  <h3 class="font-weight-bold mb-3"><strong>Galavanting the Globe</strong></h3>
+  <!-- Excerpt -->
+  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit amet.</p>
+  <!-- Post data -->
+  <p>by <a><strong>Carine Fox</strong></a>, 11/08/2018</p>
+  <!-- Read more button -->
+  <a class="btn btn-indigo btn-md" href="https://www.wandure.com/15-best-travel-blogs">
+    <i class="fas fa-user-edit"></i>
+    View</a>
+
+</div>
+<!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+    <!-- Content block -->
+    
+{% for post in posts %}
+
+<h4 class="ui horizontal divider header">
+    <i class="fas fa-blog"></i>
+    Recently posted
+  
+  </h4>
+
+<!-- Grid row -->
+<div class="row">
+
+<!-- Grid column -->
+<div class="col-lg-5">
+
+  <!-- Featured image -->
+  <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+    <img class="img-fluid" src="https://i.ibb.co/8X0bWr6/Be-Funky-photo-17.jpg" alt="Sample image">
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-lg-7">
+
+  <!-- Category -->
+  <a href="#!" class="green-text">
+    <h6 class="font-weight-bold mb-3"><i class="fas fa-user-edit"></i> {{post.author.username}} </h6>
+  </a>
+  <!-- Post title -->
+  <h3 class="font-weight-bold mb-3"><strong> {{ post.title }} </strong></h3>
+  <!-- Excerpt -->
+  <p> {{ post.content }} </p>
+  <!-- Post data -->
+  <p>by <a><strong> {{ post.author.username}} </strong></a>, {{ post.date_posted.strftime('%Y-%m-%d')}}</p>
+  <!-- Read more button -->
+  <a class="btn btn-green btn-md" href="{{ url_for('post', post_id=post.id) }}">
+      <i class="fas fa-user-edit"></i>
+    View
+  </a>
+
+</div>
+<!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+{% endfor %}
+</section>
+<!-- Section: Blog v.1 -->
+</div>
+{% endblock content%}
