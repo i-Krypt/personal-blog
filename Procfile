@@ -1,1 +1,1 @@
-web gunicorn pitchive:app
+web gunicorn blog:app
