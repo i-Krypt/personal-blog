@@ -6,11 +6,11 @@
 
     <section class="my-5">
 
-            <h4 class="ui horizontal divider header">
-                    <i class="fas fa-blog"></i>
-                    Edit blog posted
-                  
-                  </h4>
+        <h4 class="ui horizontal divider header">
+            <i class="fas fa-blog"></i>
+            Edit blog posted
+
+        </h4>
 
         <!-- Grid row -->
         <div class="row">
@@ -20,8 +20,7 @@
 
                 <!-- Featured image -->
                 <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                    <img class="img-fluid" src="https://i.ibb.co/8X0bWr6/Be-Funky-photo-17.jpg"
-                        alt="Sample image">
+                    <img class="img-fluid" src="https://i.ibb.co/8X0bWr6/Be-Funky-photo-17.jpg" alt="Sample image">
                     <a>
                         <div class="mask rgba-white-slight"></div>
                     </a>
@@ -51,8 +50,8 @@
                     <a href="{{url_for('update_post', post_id=post.id)}}"><button class="ui button">Update</button></a>
                     <div class="or"></div>
                     <form action="{{ url_for('delete_post', post_id=post.id)}}" method="POST">
-                    <button class="ui red button">Delete</button>
-                </form>
+                        <button class="ui red button">Delete</button>
+                    </form>
                 </div>
                 {% endif%}
                 <!-- Read more button -->
