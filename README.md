@@ -26,7 +26,7 @@ Sam Nujoma
 
 ## Screenshot
 
-<img src="https://i.ibb.co/pypnn63/Screenshot-from-2019-09-25-15-49-25.png'>
+<img src='https://i.ibb.co/pypnn63/Screenshot-from-2019-09-25-15-49-25.png'>
 
 ## Setup/Installation Requirements
 Python version 3.6
